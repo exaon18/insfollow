@@ -35,11 +35,7 @@ echo -e "\e[1;91m ═╩═\e[1;92m         \e[1;91m╩   by - \e[1;92mEXAON TEC
 
 }
 
-exec("xdg-open \"https://youtube.com/channel/UCdVDrTouRslQd68O3k4EdNA\" > /dev/null 2>&1 &");
 
-echo"
-
-";
 login_user() {
 
 
