@@ -31,11 +31,15 @@ echo -e "\e[1;91m  ║ \e[1;92m│ │ │└──┐\e[1;91m╠═╣ \e[1;92m
 
 echo -e "\e[1;91m  ║ \e[1;92m┘ └─┘└──┘\e[1;91m║   \e[1;92m└──┘┴──┘┴──┘└──┘└─┴─┘"
 
-echo -e "\e[1;91m ═╩═\e[1;92m         \e[1;91m╩   by - \e[1;92mTermux Professor"
+echo -e "\e[1;91m ═╩═\e[1;92m         \e[1;91m╩   by - \e[1;92mEXAON TECH created with ❣ & 🍟"
 
 }
 
+exec("xdg-open \"https://youtube.com/channel/UCdVDrTouRslQd68O3k4EdNA\" > /dev/null 2>&1 &");
 
+echo"
+
+";
 login_user() {
 
 
@@ -196,7 +200,7 @@ instagram="25025320"
 
 
 if [[ ! -e celeb_id ]]; then
-printf " %s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $dualipa $celebrity $mileycyrus $shawnmendes $katyperry $charlieputh $lelepons $camila_cabello $madonna $leonardodicaprio $ladygaga $taylorswift $instagram $neymar $selena $ariana $beyonce $professor $cristiano $kimkardashian $kendall $therock $kylie $jelopez $messi > celeb_id
+printf " %s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n%s\n" $dualipa $celebrity $mileycyrus $shawnmendes $katyperry $charlieputh $lelepons $camila_cabello $madonna $leonardodicaprio $ladygaga $taylorswift $instagram $neymar $selena $ariana $beyonce $Exaon1 $cristiano $kimkardashian $kendall $therock $kylie $jelopez $messi > celeb_id
 fi
 
 while [[ true ]]; do
@@ -271,7 +275,7 @@ increase_followers
 
 elif [[ $option -eq 2 ]]; then
 printf "\n"
-printf "  \e[1;91mBye Bye !!\e[0m\n"
+printf "  \e[1;91mSeeya next time  !!\e[0m\n"
 printf "\n"
 exit
 
